@@ -17,7 +17,8 @@ const styles = {
     },
   };
 
-  function Navbar() {
+  function Navbar(props) {
+    // const tabs = ["About", "Porfolio", "Contact", "Resume"];
     return (
       <div style={styles.card}>
         <div style={styles.heading}>Home</div>
