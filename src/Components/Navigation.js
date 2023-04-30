@@ -17,7 +17,7 @@ const styles = {
     },
   };
 
-  function Navbar(props) {
+  function Navigation(props) {
     // const tabs = ["About", "Porfolio", "Contact", "Resume"];
     return (
       <div style={styles.card}>
@@ -26,4 +26,4 @@ const styles = {
     );
   }
   
-  export default Navbar;
+  export default Navigation;
