@@ -18,7 +18,7 @@ const styles = {
   };
 
   function Navigation(props) {
-    // const tabs = ["About", "Porfolio", "Contact", "Resume"];
+    // const tabs = ["About", "Portfolio", "Contact", "Resume"];
     return (
       <div style={styles.card}>
         <div style={styles.heading}>Home</div>
