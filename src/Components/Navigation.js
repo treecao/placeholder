@@ -1,29 +1,32 @@
 // nav bar
 import React from "react";
 
-//include about me, portfolio, contact, and github
-const styles = {
-    card: {
-      margin: 20,
-      background: '#e8eaf6',
-    },
-    heading: {
-      background: '#9a74db',
-      minHeight: 50,
-      lineHeight: 3.5,
-      fontSize: '1.2rem',
-      color: 'white',
-      padding: '0 20px',
-    },
-  };
-
   function Navigation(props) {
-    // const tabs = ["About", "Portfolio", "Contact", "Resume"];
-    return (
-      <div style={styles.card}>
-        <div style={styles.heading}>Home</div>
-      </div>
-    );
+    const tabs = ["About", "Portfolio", "Contact", "Github"];
+      return (
+        <div className="tabs is-centered">
+          <ul className="nav nav-tabs">
+            {tabs.map((tab) => (
+              <li
+                className={
+                  props.currentPage === tab ? "nav-item is-active" : "nav-item"
+                }
+                key={tab}
+              >
+                <a
+                  href={"#" + tab.toLowerCase()}
+                  onClick={() => props.handlePageChange(tab)}
+                  className={
+                    props.currentPage === tab ? "nav-link active" : "nav-link"
+                  }
+                >
+                  {tab}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      );
   }
   
   export default Navigation;
