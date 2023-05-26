@@ -8,7 +8,7 @@ import Testimonials from "./Components/Testimonials";
 
 export default function App() {
   return (
-    <main>
+    <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
       <About />
       <Projects />
@@ -18,24 +18,3 @@ export default function App() {
     </main>
   );
 }
-
-
-
-// import Navigation from "./Components/Navigation";
-// import Header from "./Components/Header";
-// import Footer from "./Components/Footer";
-// import "./App.scss"
-
-
-// setting the header in footer in the components file for my dynamic editing
-// function App() {
-//   return (
-//     <div>
-//       <Navigation />
-//       {/* <Header /> */}
-//       {/* <Footer /> */}
-//     </div>
-//   );
-// }
-
-// export default App;
