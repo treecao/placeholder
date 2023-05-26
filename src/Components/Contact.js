@@ -1,3 +1,11 @@
 //contact me field: name, email, github, linkedin
 
-export default function Contact() {}
+import React from "react";
+
+export default function Contact() {
+  return (
+    <section id="contact" className="relative">
+      <h1>Contact Me!</h1>
+    </section>
+  );
+}
