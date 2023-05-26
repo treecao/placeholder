@@ -1,7 +1,7 @@
 // nav bar
 import React from "react";
 
-export default function Navbar(props) {
+export default function NavBar(props) {
     const tabs = ["About", "Portfolio", "Contact", "Github"];
       return (
         <div className="tabs is-centered">
