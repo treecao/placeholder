@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "Sequelize, Handlebars, & Bcrypt",
     description:
       "An e-commerce website that allows users to browse items in catalog and purchase as desired.",
-    image: "./project-2.gif",
+    image: "./Thingamabobs.gif",
     link: "https://treethingamabobs.herokuapp.com/",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "Javascript with API integrations",
     description:
       "A lyric translator application",
-    image: "./project-3.gif",
+    image: "./Language Shuffle.gif",
     link: "https://treecao.github.io/lyric-translator/",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "Javascript",
     description:
       "A basic note taker :)",
-    image: "./project-4.gif",
+    image: "./notetaker.gif",
     link: "https://protected-bayou-74195.herokuapp.com/notes",
   },
 ];
