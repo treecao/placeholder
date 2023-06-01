@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "MERN Stack",
     description:
       "A MERN Stack e-commerce application",
-    image: "./project-1.gif",
+    image: "./MoMart.gif",
     link: "https://momart.herokuapp.com/",
   },
   {
